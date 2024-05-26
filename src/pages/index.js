@@ -1,0 +1,12 @@
+export { default as Home } from "./home/index.jsx";
+export { default as Login } from "./login/index.jsx";
+export { default as Register } from "./register/index.jsx";
+export { default as Venue } from "./venue/index.jsx";
+export { default as Venues } from "./venues/index.jsx";
+export { default as Bookings } from "./Bookings/index.jsx";
+export { default as Profile } from "./profile/index.jsx";
+export { default as VenueBookingsPage } from "./profile/venues/bookings/index.jsx";
+export { default as AddVenuePage } from "./venue/add/index.jsx";
+export { default as MyVenuesPage } from "./profile/venues/index.jsx";
+export { default as VenuePage } from "./venue/index.jsx";
+export { default as BookingsPage } from "./Bookings/index.jsx";
