@@ -1,4 +1,3 @@
-//src/api/utils/ApiRequest.js
 import { BASE_URL } from "../constants/api";
 
 export const apiRequest = async (
@@ -30,7 +29,6 @@ export const apiRequest = async (
     }
 
     if (response.status === 204) {
-      // Handle 204 No Content response
       return {};
     }
 

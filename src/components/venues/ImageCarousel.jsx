@@ -38,7 +38,7 @@ const ImageCarousel = ({ images }) => {
             <img
               src={image.url}
               alt={image.alt || `Venue image ${index + 1}`}
-              className="w-full h-82 object-cover rounded-md"
+              className="w-full lg:h-[600px] object-cover rounded-md"
             />
           </div>
         ))}

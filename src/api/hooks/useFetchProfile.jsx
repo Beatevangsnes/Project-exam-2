@@ -1,4 +1,3 @@
-// src/api/hooks/useFetchProfile.jsx
 import { useEffect, useState } from "react";
 import { createApiKey } from "../auth/apiKey";
 import { getProfile } from "../auth/profile";

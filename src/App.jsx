@@ -2,9 +2,8 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { AuthProvider } from './api/context/AuthContext';
-import Nav from './components/layout/Nav';
-import Footer from './components/layout/Footer';
 import { Home, Login, Register, Venue, Venues, Profile, VenueBookingsPage, AddVenuePage, BookingsPage, MyVenuesPage } from './pages';
+import { Nav, Footer, ScrollToTop } from './components';
 
 
 
@@ -13,6 +12,7 @@ const App = () => {
   return (
     <AuthProvider>
       <Router>
+        <ScrollToTop />
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
