@@ -1,79 +1,55 @@
 # Holidaze
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
-
-A simple overview of the use/purpose of the project.
+![image](https://github.com/Beatevangsnes/Project-exam-2/blob/main/src/assets/holidaze-webpage.png?raw=true)
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.s
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+This project involved developing a new front end for Holidaze, an accommodation booking site. It includes a customer-facing interface for booking holidays and an admin-facing interface for managing venues and bookings, integrating with the Holidaze API. Project exam 2 at Noroff.
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- [Tailwind](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [Framer Motion.](https://www.framer.com/motion/)
 
-## Getting Started
+## Getting started
 
-### Installing
+### Installation
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
-1. Clone the repo:
-
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
+1. Clone the project
 
 ```
-npm install
+https://github.com/Beatevangsnes/Project-exam-2.git
 ```
 
-### Running
+2. Install NPM packages
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
+```
+npm install or yarn install
 ```
 
-## Contributing
+3. Start the project
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+```
+npm start
+```
+
+### Run the application
+
+1. Start the development server
+
+```
+npm run dev
+```
+
+2. View in Browser
+   Open the provided localhost link in your preferred web browser
+
+## Deployed Sites
+
+Netlify Deployment, [Portfolio Webpage](https://project-exam-2-bv.netlify.app/)
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[My LinkedIn page](https://www.linkedin.com/in/beate-vangsnes/)
