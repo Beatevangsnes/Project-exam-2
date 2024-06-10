@@ -48,7 +48,7 @@ npm run dev
 
 ## Deployed Sites
 
-Netlify Deployment, [Portfolio Webpage](https://project-exam-2-bv.netlify.app/)
+Netlify Deployment, [Holidaze](https://project-exam-2-bv.netlify.app/)
 
 ## Contact
 
