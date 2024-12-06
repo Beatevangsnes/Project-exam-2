@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { loginUser } from '../../api/auth/login';
 import AuthContext from '../../api/context/AuthContext';
+import { Link } from 'react-router-dom';
 
 const LoginForm = () => {
   const [email, setEmail] = useState("");
@@ -65,8 +66,10 @@ const LoginForm = () => {
               <button type="submit" className='rounded bg-indigo-500 px-4 py-1 font-medium tracking-wide text-white transition-all duration-300 hover:bg-indigo-300'>Login</button>
             </div>
             <div className='grid text-container'>
-              <span className='text-md font-regular text-gray-900 pt-4 text-center'>OR</span>
-              <a href='/register' className='text-center right-0 inline align-baseline text-sm font-medium text-indigo-500 hover:text-white pt-4'>Don't have an account?</a>
+              <span className='text-md font-regu lar text-gray-900 pt-4 text-center'>OR</span>
+              <Link to='/register' className='text-center right-0 inline align-baseline text-sm font-medium text-indigo-500 hover:text-white pt-4'>
+                Don't have an account?
+              </Link>
             </div>
           </form>
         </div>

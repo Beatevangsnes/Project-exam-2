@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { registerUser } from '../../api/auth/register';
+import { Link } from 'react-router-dom';
 
 const RegisterForm = () => {
   const [formData, setFormData] = useState({
@@ -147,7 +148,9 @@ const RegisterForm = () => {
             </div>
             <div className='grid text-container'>
               <span className='text-md font-regular text-gray-900 pt-4 text-center'>OR</span>
-              <a href='/login' className='text-center right-0 inline align-baseline text-sm font-medium text-indigo-500 hover:text-white pt-4'>Already have an account?</a>
+              <Link to='/login' className='text-center right-0 inline align-baseline text-sm font-medium text-indigo-500 hover:text-white pt-4'>
+                Already have an account?
+              </Link>
             </div>
           </form>
         </div>
