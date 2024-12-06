@@ -46,6 +46,22 @@ npm run dev
 2. View in Browser
    Open the provided localhost link in your preferred web browser
 
+### Testing the Application
+
+#### Logging in
+
+To test the features of the site, you can log in using the following test user credentials:
+
+- **E-mail**: testuser55@stud.noroff.no
+- **Password**: Passord1234
+
+#### Registering a New User
+
+If you prefer to register a new user:
+
+1. Use any valid email address that ends with `@stud.noroff.no`. 
+2. You do not need an actual Noroff email to register; any email address following this format will work.
+
 ## Deployed Sites
 
 Netlify Deployment, [Holidaze](https://project-exam-2-bv.netlify.app/)
